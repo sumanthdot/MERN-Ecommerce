@@ -4,23 +4,35 @@ const cookieParser = require("cookie-parser")
 require('dotenv').config()
 const connectDB = require('./config/db')
 const router = require('./routes')
-
+const path = require ("path");
 ///
 
 const app = express()
 app.use(cors({
-    origin : process.env.FRONTEND_URL,
+    origin : import.meta.env.FRONTEND_URL,
     credentials:true
 }))
 //
+
+
 app.use(express.json())
 app.use(cookieParser())
+
+const __dirname = path.resolve();
+const PORT = 8080 || process.env.PORT
+
 
 app.use("/api",router)
 
 
+if(process.env.NODE_ENV === "production"){
+    app.use(express.static(path.join(__dirname, "/frontend/dist")));
+    
+    app.get("*",(req,res)=>{
+        res.sendFile(path.resolve(__dirname, "frontend","dist","index.html"))
+    });
+}
 
-const PORT = 8080 || process.env.PORT
 
 connectDB().then(()=>{
     app.listen(PORT,()=>{
