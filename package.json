@@ -2,15 +2,14 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "backend/index.js",
-  
   "scripts": {
-   "dev": "cross-env NODE_ENV=development nodemon backend/index.js",
+    "dev": "cross-env NODE_ENV=development nodemon backend/index.js",
     "start": "cross-env NODE_ENV=production node backend/index.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "��#\u0000 \u0000m\u0000e\u0000r\u0000n\u0000-\u0000e\u0000c\u0000o\u0000m\u0000m\u0000e\u0000r\u0000c\u0000e\u0000\r\u0000 \u0000#\u0000 \u0000m\u0000e\u0000r\u0000n\u0000-\u0000e\u0000c\u0000o\u0000m\u0000m\u0000e\u0000r\u0000c\u0000e\u0000\r\u0000 \u0000#\u0000 \u0000m\u0000e\u0000r\u0000n\u0000-\u0000e\u0000c\u0000o\u0000m\u0000m\u0000e\u0000r\u0000c\u0000e\u0000\r\u0000 \u0000",
   "dependencies": {
     "@stripe/stripe-js": "^5.2.0",
     "bcryptjs": "^2.4.3",
@@ -24,5 +23,6 @@
     "nodemon": "^3.1.7",
     "prefix": "^1.0.0",
     "stripe": "^17.4.0"
-  }
+  },
+  "keywords": []
 }
