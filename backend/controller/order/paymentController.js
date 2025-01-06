@@ -1,4 +1,4 @@
-const stripe = require('../../config/stripe')
+const stripe = require('../../config/Stripe')
 const userModel = require('../../models/userModel')
 
 const paymentController = async(request,response)=>{
