@@ -1,5 +1,5 @@
-const backendDomain ="http://localhost:8080";
-//  const backendDomain ="https://mern-ecommerce-la4f.onrender.com/";
+// const backendDomain ="http://localhost:8080";
+const backendDomain ="https://mern-ecom-backend-4r6e.onrender.com";
 // 
 const SummaryApi = {
 
