@@ -2,7 +2,7 @@
 const backendDomain ="https://mern-ecom-backend-4r6e.onrender.com";
 // 
 const SummaryApi = {
-
+//
 
     signUp :{
         url: `${backendDomain}/api/signup`,
