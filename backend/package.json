@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "commonjs",
+  
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
@@ -10,7 +10,7 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "��#\u0000 \u0000m\u0000e\u0000r\u0000n\u0000-\u0000e\u0000c\u0000o\u0000m\u0000m\u0000e\u0000r\u0000c\u0000e\u0000\r\u0000 \u0000#\u0000 \u0000m\u0000e\u0000r\u0000n\u0000-\u0000e\u0000c\u0000o\u0000m\u0000m\u0000e\u0000r\u0000c\u0000e\u0000\r\u0000 \u0000#\u0000 \u0000m\u0000e\u0000r\u0000n\u0000-\u0000e\u0000c\u0000o\u0000m\u0000m\u0000e\u0000r\u0000c\u0000e\u0000\r\u0000 \u0000",
+  
   "dependencies": {
     "@stripe/stripe-js": "^5.2.0",
     "bcryptjs": "^2.4.3",
