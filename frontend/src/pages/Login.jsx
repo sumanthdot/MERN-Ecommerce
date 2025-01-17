@@ -165,7 +165,8 @@ const Login = () => {
             method : SummaryApi.signIn.method,
             credentials : 'include',
             headers : {
-                "content-type" : "application/json"
+                "content-type" : "application/json",
+                httpsOnly:true
             },
             body : JSON.stringify(data)
         })
