@@ -1,5 +1,5 @@
 //const backendDomain =import.meta.env.REACT_APP_BACKEND_URL;
- const backendDomain ="https://mern-ecom-backend-4r6e.onrender.com/";
+ const backendDomain ="https://mern-ecom-backend-4r6e.onrender.com";
 // 
 const SummaryApi = {
 //
