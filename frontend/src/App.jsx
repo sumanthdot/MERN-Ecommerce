@@ -26,7 +26,7 @@ function App() {
 
     const dataApi = await dataResponse.json()
 
-    console.log("Login",dataApi)
+    // console.log("Login",dataApi)
     if(dataApi.success){
       dispatch(setUserDetails(dataApi.data))
     }

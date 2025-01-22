@@ -101,6 +101,7 @@ async function userSignInController(req,res){
 
         const tokenOption = {
             httpsOnly : true,
+            secure: process.env.NODE_ENV === 'production', // Ensures secure cookies in production,
             secure : true
         }
 
@@ -114,13 +115,6 @@ async function userSignInController(req,res){
        }else{
          throw new Error("Please check Password")
        }
-
-
-
-
-
-
-
     }catch(err){
         res.json({
             message : err.message || err  ,
