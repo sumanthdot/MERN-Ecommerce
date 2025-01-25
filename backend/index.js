@@ -9,7 +9,8 @@ const router = require('./routes/index')
 
 const app = express()
 app.use(cors({
-    origin : process.env.FRONTEND_URL,
+    // origin : process.env.FRONTEND_URL,
+    origin : ['https://mern-ecommerce-nu-inky.vercel.app'],
     credentials:true,
     httpsOnly:true,
     secure:true
