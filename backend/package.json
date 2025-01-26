@@ -5,8 +5,8 @@
   
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js",
-    "build": "echo No build a step required for node.js app"
+    "start": "nodemon index.js",
+    "build": "npm install "
   },
   "author": "",
   "license": "ISC",
