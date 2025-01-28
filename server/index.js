@@ -9,7 +9,7 @@ const {fileURLToPath} = require('url')
 
 const app = express()
 app.use(cors({
-      origin : process.env.FRONTEND_URL,
+      origin : `https://mern-3k0k.onrender.com`,
     // origin : ['https://mern-ecommerce-nu-inky.vercel.app',process.env.FRONTEND_URL, 'https://sumant-ekart.netlify.app'],
     credentials:true,
     httpsOnly:true,
