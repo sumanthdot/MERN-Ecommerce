@@ -28,7 +28,8 @@ const __diirname = path.resolve()
 console.log(__diirname)
 
 
-const PORT =  `https://mern-3k0k.onrender.com`
+const PORT =  8080
+// `https://mern-3k0k.onrender.com`
 
 // app.get("/",(req,res)=>{
 //     res.send("hello API")
